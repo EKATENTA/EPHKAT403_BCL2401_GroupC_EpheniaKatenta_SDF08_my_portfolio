@@ -390,9 +390,10 @@ header {
 }
 
 .portfolio {
-   display:flex;
-   flex-wrap:wrap;
-   gap: 1px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+
 }
 
 .portfolio__item {
